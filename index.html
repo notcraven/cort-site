@@ -18,6 +18,8 @@ a{color:#141414}a:hover{color:#7B4AE2}
 .burst{clip-path:polygon(50.0% 0.0%, 58.2% 13.9%, 71.7% 5.0%, 74.9% 18.7%, 89.1% 18.8%, 83.3% 33.9%, 98.7% 38.9%, 90.0% 50.0%, 98.7% 61.1%, 83.3% 66.1%, 89.1% 81.2%, 74.9% 81.3%, 71.7% 95.0%, 58.2% 86.1%, 50.0% 100.0%, 41.1% 89.0%, 28.3% 95.0%, 26.9% 78.9%, 10.9% 81.2%, 14.0% 67.4%, 1.3% 61.1%, 13.0% 50.0%, 1.3% 38.9%, 14.0% 32.6%, 10.9% 18.8%, 26.9% 21.1%, 28.3% 5.0%, 41.1% 11.0%)}
 </style>
 <style>img{max-width:100%}[hidden]{display:none!important}
+.skip-link{position:absolute;left:12px;top:-60px;z-index:100;background:#FFD83B;color:#141414;border:3px solid #141414;padding:10px 16px;font:900 16px 'Nunito',system-ui,sans-serif;text-decoration:none}
+.skip-link:focus{top:12px}
 .menu-btn{display:none}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:760px){
@@ -38,7 +40,8 @@ header>div>a:first-child{gap:10px!important}
 </style>
 </head>
 <body>
-<div style="font-family: 'Nunito', system-ui, sans-serif; background: #141414; color: #FFD83B; text-align: center; padding: 10px 16px; font-weight: 800; font-size: 15px; letter-spacing: .5px">Opening January 2027 • Consult requests now go to an interest list</div>
+<a class="skip-link" href="#main">Skip to main content</a>
+<aside aria-label="Announcement" style="font-family: 'Nunito', system-ui, sans-serif; background: #141414; color: #FFD83B; text-align: center; padding: 10px 16px; font-weight: 800; font-size: 15px; letter-spacing: .5px">Opening January 2027 • Consult requests now go to an interest list</aside>
 <div style="font-family: 'Nunito', system-ui, sans-serif; color: #141414; background: #FFF8E7; min-width: 0">
 
 <header style="background: #FFF8E7; border-bottom: 4px solid #141414">
@@ -61,15 +64,16 @@ header>div>a:first-child{gap:10px!important}
 </nav>
 </div>
 </header>
+<main id="main" tabindex="-1" style="outline: none">
 
 <section class="ht-teal" style="position: relative; overflow: hidden; border-bottom: 4px solid #141414">
 <div style="max-width: 1280px; margin: 0 auto; padding: 64px 24px 150px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px; position: relative; z-index: 2">
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 28px">
-<div class="burst" style="width: min(100%, 600px); aspect-ratio: 6 / 5; background: #141414; position: relative">
-<div class="burst" style="position: absolute; inset: 7px; background: #FFD83B; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 18% 17%; box-sizing: border-box; gap: 14px">
-<h1 style="margin: 0; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(40px, 6vw, 78px); line-height: 0.95; letter-spacing: 1.5px; transform: rotate(-4deg)">BRING YOUR WHOLE SELF.</h1>
-<p style="margin: 0; font-weight: 900; font-size: clamp(12px, 1.35vw, 17px); line-height: 1.25; letter-spacing: 0.5px; transform: rotate(-4deg); text-transform: uppercase; max-width: 78%">Neurodivergent-affirming.<br>Gender-affirming.<br>Gamer-fluent.</p>
-</div>
+<div style="position: relative; width: min(100%, 600px); aspect-ratio: 6 / 5; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 18% 17%; box-sizing: border-box; gap: 14px">
+<span aria-hidden="true" class="burst" style="position: absolute; inset: 0; background: #141414"></span>
+<span aria-hidden="true" class="burst" style="position: absolute; inset: 7px; background: #FFD83B"></span>
+<h1 style="position: relative; margin: 0; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(40px, 6vw, 78px); line-height: 0.95; letter-spacing: 1.5px; transform: rotate(-4deg)">BRING YOUR WHOLE SELF.</h1>
+<p style="position: relative; margin: 0; font-weight: 900; font-size: clamp(12px, 1.35vw, 17px); line-height: 1.25; letter-spacing: 0.5px; transform: rotate(-4deg); text-transform: uppercase; max-width: 78%">Neurodivergent-affirming.<br>Gender-affirming.<br>Gamer-fluent.</p>
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: center">
 <a href="contact.html" style="min-height: 52px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 10px; padding: 0 24px; background: #FF4FA3; color: #141414; text-decoration: none; font-weight: 900; font-size: 19px; letter-spacing: 0.5px; border: 4px solid #141414; box-shadow: 6px 6px 0 #141414; text-transform: uppercase">Book a free consult <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
@@ -87,7 +91,7 @@ header>div>a:first-child{gap:10px!important}
 <section style="background: #FFF8E7; border-bottom: 4px solid #141414">
 <div style="max-width: 1280px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; gap: 48px">
 <h2 style="margin: 0; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(36px, 4vw, 52px); letter-spacing: 1.5px; font-style: italic; text-align: center">HOW I CAN HELP</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 36px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 36px">
 <a href="services.html" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px; text-decoration: none; color: #141414">
 <span style="width: 132px; height: 132px; border-radius: 50%; background: #7B4AE2; border: 4px solid #141414; box-shadow: 5px 5px 0 #141414; display: flex; align-items: center; justify-content: center; color: #FFF8E7"><svg aria-hidden="true" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h11a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9l-4 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path><path d="M17 8h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-1v3l-4-3h-3"></path></svg></span>
 <span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 30px; letter-spacing: 1px; font-style: italic">INDIVIDUAL THERAPY</span>
@@ -132,7 +136,7 @@ header>div>a:first-child{gap:10px!important}
 <section style="background: #FFF8E7; border-bottom: 4px solid #141414">
 <div style="max-width: 1180px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 40px">
 <h2 style="margin: 0; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(34px, 4vw, 52px); letter-spacing: 1.5px; font-style: italic; text-align: center">YOU MIGHT BE IN THE RIGHT PLACE IF…</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 22px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 22px">
 <div style="display: flex; gap: 16px; align-items: flex-start; background: #FFFFFF; border: 3px solid #141414; box-shadow: 5px 5px 0 #141414; padding: 22px"><span aria-hidden="true" style="flex: none; width: 40px; height: 40px; border-radius: 50%; background: #19B8C9; border: 3px solid #141414; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"></path></svg></span><span style="font-size: 18px; line-height: 1.5; font-weight: 600">You've masked for so long you're not sure what's underneath.</span></div>
 <div style="display: flex; gap: 16px; align-items: flex-start; background: #FFFFFF; border: 3px solid #141414; box-shadow: 5px 5px 0 #141414; padding: 22px"><span aria-hidden="true" style="flex: none; width: 40px; height: 40px; border-radius: 50%; background: #FF4FA3; border: 3px solid #141414; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"></path></svg></span><span style="font-size: 18px; line-height: 1.5; font-weight: 600">You're questioning, transitioning, or settled in your gender and want support living it out loud.</span></div>
 <div style="display: flex; gap: 16px; align-items: flex-start; background: #FFFFFF; border: 3px solid #141414; box-shadow: 5px 5px 0 #141414; padding: 22px"><span aria-hidden="true" style="flex: none; width: 40px; height: 40px; border-radius: 50%; background: #FFD83B; border: 3px solid #141414; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#141414" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"></path></svg></span><span style="font-size: 18px; line-height: 1.5; font-weight: 600">Therapy has felt like a test with rules nobody explained.</span></div>
@@ -146,7 +150,7 @@ header>div>a:first-child{gap:10px!important}
 <section class="ht-pink" style="border-bottom: 4px solid #141414">
 <div style="max-width: 1280px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 40px">
 <h2 style="margin: 0; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(34px, 4vw, 52px); letter-spacing: 1.5px; font-style: italic; text-align: center; color: #141414">WRITING &amp; RESOURCES</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 28px">
 <a href="https://game-world-therapy.ghost.io" style="display: flex; flex-direction: column; background: #FFF8E7; border: 4px solid #141414; box-shadow: 8px 8px 0 #141414; text-decoration: none; color: #141414" target="_blank" rel="noopener">
 <span style="background: #FFD83B; border-bottom: 4px solid #141414; padding: 14px 20px; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 28px; letter-spacing: 1px">GAME WORLD THERAPY</span>
 <span style="padding: 20px; display: flex; flex-direction: column; gap: 12px; flex: 1"><span style="font-size: 17px; line-height: 1.55">My blog on bringing video games into real clinical frameworks: interventions, case-style reflections, and the occasional boss-fight metaphor.</span><span style="font-weight: 900; text-transform: uppercase; font-size: 15px; letter-spacing: 0.5px">Read the blog →</span></span>
@@ -160,7 +164,7 @@ header>div>a:first-child{gap:10px!important}
 </section>
 
 <section class="ht-yellow" style="border-bottom: 4px solid #141414">
-<div style="max-width: 1280px; margin: 0 auto; padding: 48px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+<div style="max-width: 1280px; margin: 0 auto; padding: 48px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 20px">
 <div style="background: #FFF8E7; border: 3px solid #141414; padding: 20px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 24px; letter-spacing: 1px; color: #7B4AE2">WHERE</span><span style="font-size: 17px; font-weight: 600; line-height: 1.45">Grand Blanc office, plus telehealth anywhere in Michigan</span></div>
 <div style="background: #FFF8E7; border: 3px solid #141414; padding: 20px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 24px; letter-spacing: 1px; color: #7B4AE2">WHO</span><span style="font-size: 17px; font-weight: 600; line-height: 1.45">Adults 18+</span></div>
 <div style="background: #FFF8E7; border: 3px solid #141414; padding: 20px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 24px; letter-spacing: 1px; color: #7B4AE2">PAYMENT</span><span style="font-size: 17px; font-weight: 600; line-height: 1.45">Michigan Medicaid and self-pay</span></div>
@@ -168,9 +172,10 @@ header>div>a:first-child{gap:10px!important}
 </div>
 </section>
 
+</main>
 <footer style="background: #141414; color: #FFF8E7">
 <div style="max-width: 1280px; margin: 0 auto; padding: 56px 24px 32px; display: flex; flex-direction: column; gap: 36px">
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 36px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 36px">
 <div style="display: flex; flex-direction: column; gap: 12px">
 <span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 32px; letter-spacing: 1.5px; color: #FFD83B">CORT CRAVEN, LLPC</span>
 <span style="font-size: 15px; line-height: 1.6">Limited Licensed Professional Counselor, Michigan License #[NUMBER]. Practicing under the clinical supervision of [SUPERVISOR NAME], LPC. Grand Blanc, Michigan.</span>

@@ -17,6 +17,8 @@ a{color:#141414}a:hover{color:#7B4AE2}
 .ht-pink{background-color:#FF4FA3;background-image:radial-gradient(rgba(20,20,20,.16) 1.6px,transparent 1.9px);background-size:12px 12px}
 </style>
 <style>img{max-width:100%}[hidden]{display:none!important}
+.skip-link{position:absolute;left:12px;top:-60px;z-index:100;background:#FFD83B;color:#141414;border:3px solid #141414;padding:10px 16px;font:900 16px 'Nunito',system-ui,sans-serif;text-decoration:none}
+.skip-link:focus{top:12px}
 .menu-btn{display:none}
 @media (max-width:760px){
 .menu-btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 16px;background:#FFD83B;color:#141414;border:3px solid #141414;box-shadow:4px 4px 0 #141414;font:900 16px 'Nunito',system-ui,sans-serif;letter-spacing:.5px;text-transform:uppercase;cursor:pointer}
@@ -36,7 +38,8 @@ header>div>a:first-child{gap:10px!important}
 </style>
 </head>
 <body>
-<div style="font-family: 'Nunito', system-ui, sans-serif; background: #141414; color: #FFD83B; text-align: center; padding: 10px 16px; font-weight: 800; font-size: 15px; letter-spacing: .5px">Opening January 2027 • Consult requests now go to an interest list</div>
+<a class="skip-link" href="#main">Skip to main content</a>
+<aside aria-label="Announcement" style="font-family: 'Nunito', system-ui, sans-serif; background: #141414; color: #FFD83B; text-align: center; padding: 10px 16px; font-weight: 800; font-size: 15px; letter-spacing: .5px">Opening January 2027 • Consult requests now go to an interest list</aside>
 <div style="font-family: 'Nunito', system-ui, sans-serif; color: #141414; background: #FFF8E7; min-width: 0">
 
 <header style="background: #FFF8E7; border-bottom: 4px solid #141414">
@@ -59,6 +62,7 @@ header>div>a:first-child{gap:10px!important}
 </nav>
 </div>
 </header>
+<main id="main" tabindex="-1" style="outline: none">
 
 <section class="ht-purple" style="border-bottom: 4px solid #141414">
 <div style="max-width: 1280px; margin: 0 auto; padding: 72px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
@@ -81,7 +85,7 @@ header>div>a:first-child{gap:10px!important}
 <section style="background: #FFF8E7; border-bottom: 4px solid #141414">
 <div style="max-width: 1280px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 40px">
 <h2 style="margin: 0; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(36px, 4vw, 52px); letter-spacing: 1.5px; font-style: italic; text-align: center">MY BACKGROUND</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 28px">
 <div style="background: #FFFFFF; border: 4px solid #141414; box-shadow: 8px 8px 0 #141414; display: flex; flex-direction: column">
 <span style="background: #19B8C9; border-bottom: 4px solid #141414; padding: 14px 20px; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 26px; letter-spacing: 1px">TRAINING</span>
 <p style="margin: 0; padding: 20px; font-size: 17px; line-height: 1.6">Master's degree in Clinical Mental Health Counseling, Davenport University. One-year supervised clinical internship in Genesee County.</p>
@@ -114,7 +118,7 @@ header>div>a:first-child{gap:10px!important}
 <section class="ht-teal" style="border-bottom: 4px solid #141414">
 <div style="max-width: 1280px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 40px">
 <h2 style="margin: 0; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(36px, 4vw, 52px); letter-spacing: 1.5px; font-style: italic; text-align: center">OFF THE CLOCK</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 28px">
 <div style="background: #FFF8E7; border: 4px solid #141414; box-shadow: 8px 8px 0 #141414; padding: 24px; display: flex; flex-direction: column; gap: 10px; transform: rotate(-1deg)"><span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 28px; letter-spacing: 1px; color: #7B4AE2">AT THE GYM</span><span style="font-size: 17px; line-height: 1.6">I cycle, row, and weight train.</span></div>
 <div style="background: #FFF8E7; border: 4px solid #141414; box-shadow: 8px 8px 0 #141414; padding: 24px; display: flex; flex-direction: column; gap: 10px; transform: rotate(1deg)"><span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 28px; letter-spacing: 1px; color: #7B4AE2">AT THE DESK</span><span style="font-size: 17px; line-height: 1.6">I write literary fiction and run the Game World Therapy blog.</span></div>
 <div style="background: #FFF8E7; border: 4px solid #141414; box-shadow: 8px 8px 0 #141414; padding: 24px; display: flex; flex-direction: column; gap: 10px; transform: rotate(-1deg)"><span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 28px; letter-spacing: 1px; color: #7B4AE2">ON THE COUCH</span><span style="font-size: 17px; line-height: 1.6">With my dogs, Tali and Tater, and whatever game I'm currently overthinking.</span></div>
@@ -129,9 +133,10 @@ header>div>a:first-child{gap:10px!important}
 </div>
 </section>
 
+</main>
 <footer style="background: #141414; color: #FFF8E7">
 <div style="max-width: 1280px; margin: 0 auto; padding: 56px 24px 32px; display: flex; flex-direction: column; gap: 36px">
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 36px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 36px">
 <div style="display: flex; flex-direction: column; gap: 12px">
 <span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 32px; letter-spacing: 1.5px; color: #FFD83B">CORT CRAVEN, LLPC</span>
 <span style="font-size: 15px; line-height: 1.6">Limited Licensed Professional Counselor, Michigan License #[NUMBER]. Practicing under the clinical supervision of [SUPERVISOR NAME], LPC. Grand Blanc, Michigan.</span>
