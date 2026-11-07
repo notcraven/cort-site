@@ -16,7 +16,24 @@ a{color:#141414}a:hover{color:#7B4AE2}
 .ht-yellow{background-color:#FFD83B;background-image:radial-gradient(rgba(20,20,20,.12) 1.5px,transparent 1.8px);background-size:11px 11px}
 .ht-pink{background-color:#FF4FA3;background-image:radial-gradient(rgba(20,20,20,.16) 1.6px,transparent 1.9px);background-size:12px 12px}
 </style>
-<style>img{max-width:100%}[hidden]{display:none!important}</style>
+<style>img{max-width:100%}[hidden]{display:none!important}
+.menu-btn{display:none}
+@media (max-width:760px){
+.menu-btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 16px;background:#FFD83B;color:#141414;border:3px solid #141414;box-shadow:4px 4px 0 #141414;font:900 16px 'Nunito',system-ui,sans-serif;letter-spacing:.5px;text-transform:uppercase;cursor:pointer}
+.menu-btn:focus-visible{outline:4px solid #7B4AE2;outline-offset:2px}
+.main-nav{display:none!important;width:100%;flex-direction:column!important;align-items:stretch!important;gap:4px!important;padding-top:8px}
+.main-nav.open{display:flex!important}
+.main-nav a{margin-left:0!important;min-height:48px!important}
+.main-nav a:last-child{justify-content:center;margin-top:8px!important}
+header>div{padding:14px 16px!important;gap:12px!important;flex-wrap:wrap!important}
+header>div>a:first-child{gap:10px!important}
+.logo-name{font-size:23px!important}
+.logo-tag{font-size:9px!important;letter-spacing:1.5px!important}
+.logo-badge{width:42px!important;height:42px!important;font-size:21px!important;border-width:3px!important;box-shadow:3px 3px 0 #141414!important}
+.menu-btn{padding:0 12px!important;font-size:15px!important}
+}
+@media (max-width:379px){.mb-label{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.menu-btn{width:48px;justify-content:center;padding:0!important}}
+</style>
 </head>
 <body>
 <div style="font-family: 'Nunito', system-ui, sans-serif; background: #141414; color: #FFD83B; text-align: center; padding: 10px 16px; font-weight: 800; font-size: 15px; letter-spacing: .5px">Opening January 2027 • Consult requests now go to an interest list</div>
@@ -25,13 +42,14 @@ a{color:#141414}a:hover{color:#7B4AE2}
 <header style="background: #FFF8E7; border-bottom: 4px solid #141414">
 <div style="max-width: 1280px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
 <a href="index.html" style="display: flex; align-items: center; gap: 14px; text-decoration: none; color: #141414">
-<span style="width: 56px; height: 56px; flex: none; border-radius: 50%; background: #FFD83B; border: 4px solid #141414; box-shadow: 4px 4px 0 #141414; display: flex; align-items: center; justify-content: center; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 28px; letter-spacing: 1px">CC</span>
+<span class="logo-badge" style="width: 56px; height: 56px; flex: none; border-radius: 50%; background: #FFD83B; border: 4px solid #141414; box-shadow: 4px 4px 0 #141414; display: flex; align-items: center; justify-content: center; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 28px; letter-spacing: 1px">CC</span>
 <span style="display: flex; flex-direction: column; gap: 4px">
-<span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 34px; letter-spacing: 1.5px; line-height: 1">CORT CRAVEN, LLPC</span>
-<span style="font-size: 12px; font-weight: 900; letter-spacing: 3px">AFFIRMING • CURIOUS • REAL</span>
+<span class="logo-name" style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 34px; letter-spacing: 1.5px; line-height: 1">CORT CRAVEN, LLPC</span>
+<span class="logo-tag" style="font-size: 12px; font-weight: 900; letter-spacing: 3px">AFFIRMING • CURIOUS • REAL</span>
 </span>
 </a>
-<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center">
+<button type="button" class="menu-btn" aria-expanded="false" aria-controls="main-nav"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path class="mb-open" d="M4 7h16M4 12h16M4 17h16"></path><path class="mb-close" d="M6 6l12 12M18 6L6 18" style="display:none"></path></svg><span class="mb-label">Menu</span></button>
+<nav aria-label="Main" id="main-nav" class="main-nav" style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center">
 <a href="index.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; border: 3px solid transparent">Home</a>
 <a href="about.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; border: 3px solid transparent">About</a>
 <a href="services.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; border: 3px solid transparent">Services</a>
@@ -122,5 +140,11 @@ a{color:#141414}a:hover{color:#7B4AE2}
 
 </div>
 
+<script>
+(function(){var b=document.querySelector('.menu-btn'),n=document.getElementById('main-nav');if(!b||!n)return;
+function set(o){n.classList.toggle('open',o);b.setAttribute('aria-expanded',o);b.querySelector('.mb-open').style.display=o?'none':'';b.querySelector('.mb-close').style.display=o?'':'none';b.querySelector('.mb-label').textContent=o?'Close':'Menu';}
+b.addEventListener('click',function(){set(b.getAttribute('aria-expanded')!=='true');});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&n.classList.contains('open')){set(false);b.focus();}});})();
+</script>
 </body>
 </html>
