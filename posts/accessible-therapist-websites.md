@@ -22,7 +22,7 @@ As a therapist, you understand the courage it takes to seek help. Shouldn’t yo
 
 By making accessibility the foundation of your design choices, you’re not just following guidelines; you’re living your values. You’re creating a virtual environment where every potential client can feel seen, respected, and welcomed from their very first interaction with you.
 
-Want to make this concrete? Think about the fictional Marie, a therapist who redesigned her website with accessibility in mind. Her client Alex, who is a blind Black woman looking for a therapist with a somewhat similar lived experience, later shared how the thoughtfully crafted alt text descriptions and keyboard-friendly navigation helped her independently choose Marie as a therapist, something she’d previously needed help with on other sites. These moments highlight how technical choices become bridges to autonomy and dignity.
+> Want to make this concrete? Think about the fictional Marie, a therapist who redesigned her website with accessibility in mind. Her client Alex, who is a blind Black woman looking for a therapist with a somewhat similar lived experience, later shared how the thoughtfully crafted alt text descriptions and keyboard-friendly navigation helped her independently choose Marie as a therapist, something she’d previously needed help with on other sites. These moments highlight how technical choices become bridges to autonomy and dignity.
 
 ## Understanding Your Digital Welcome Mat
 

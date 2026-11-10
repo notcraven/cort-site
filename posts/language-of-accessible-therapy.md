@@ -14,7 +14,7 @@ Achieving genuinely accessible therapy goes beyond simply replacing outdated ter
 
 ## Moving Beyond Ableist Therapeutic Language
 
-Picture a common scenario: a therapist is listening to a client share their experience of living with chronic pain. The therapist instinctively responds, “It sounds like you’re battling with your body.” This phrasing, though seemingly innocuous, is deeply embedded in traditional therapeutic discourse. But what underlying message does it convey?
+> Picture a common scenario: a therapist is listening to a client share their experience of living with chronic pain. The therapist instinctively responds, “It sounds like you’re battling with your body.” This phrasing, though seemingly innocuous, is deeply embedded in traditional therapeutic discourse. But what underlying message does it convey?
 
 Ableism is deeply ingrained in mental healthcare, influencing theoretical frameworks and permeating everyday clinical language. Many therapists have been trained to interpret human experiences through a lens that views certain bodies and minds as “standard,” while others are perceived as deviations requiring “fixing” or “overcoming.” This manifests in subtle but significant ways:
 
@@ -25,7 +25,7 @@ Ableism is deeply ingrained in mental healthcare, influencing theoretical framew
 - **Inspiration-focused narratives:** Positioning disability as something to “overcome.”
 - Language that frames certain bodies and minds as broken or deficient.
 
-Let’s reframe these conversations. Instead of stating someone is “confined to a wheelchair,” we can say they “use a wheelchair for mobility.” Rather than discussing “overcoming” anxiety, we might explore how someone “lives with and responds to” anxiety.
+> Let’s reframe these conversations. Instead of stating someone is “confined to a wheelchair,” we can say they “use a wheelchair for mobility.” Rather than discussing “overcoming” anxiety, we might explore how someone “lives with and responds to” anxiety.
 
 The inherent power dynamics within therapeutic relationships underscore the significance of language choices. When therapists unwittingly perpetuate ableist language, they risk reinforcing harmful societal messages that clients may have already internalized. Conversely, thoughtful language selection and client-led communication create space for authentic self-expression and profound healing.
 
