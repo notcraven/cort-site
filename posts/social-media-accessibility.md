@@ -15,7 +15,7 @@ Social media has become a tool both for marketing and preserving our sense of hu
 
 - Break up long posts into digestible chunks.
 - Capitalize each word in hashtags (#MentalHealthAwareness) to make them screen-reader friendly.
-- Avoid using special fonts (ASCII symbols) or excessive emojis that can confuse screen readers and make content harder to process.
+- Avoid using special fonts (Unicode symbols) or excessive emojis that can confuse screen readers and make content harder to process.
 
 ## Video Content
 
