@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Accessible Therapy · Accessible Practice</title>
+<meta name="description" content="Accessibility in therapy goes beyond cost and availability. Practical steps to make your sessions, paperwork, telehealth, and website work for clients with disabilities.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cort Craven, LLPC">
+<meta property="og:title" content="Accessible Therapy · Accessible Practice">
+<meta property="og:description" content="Accessibility in therapy goes beyond cost and availability. Practical steps to make your sessions, paperwork, telehealth, and website work for clients with disabilities.">
+<meta property="og:url" content="https://notcraven.github.io/cort-site/blog-accessible-therapy.html">
+<meta property="og:image" content="https://notcraven.github.io/cort-site/images/social-share-v3.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Cort Craven, LLPC. You don't have to solo this. Neurodivergent-affirming, gender-affirming, gamer-fluent therapy for adults by telehealth across Michigan.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Ccircle cx=%2732%27 cy=%2732%27 r=%2729%27 fill=%27%2319B8C9%27 stroke=%27%23141414%27 stroke-width=%275%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-size=%2726%27 font-family=%27Arial Black,sans-serif%27 text-anchor=%27middle%27 fill=%27%23141414%27%3ECC%3C/text%3E%3C/svg%3E">
+
+<style>
+@font-face{font-family:'Bangers';src:url(fonts/bangers.woff2) format('woff2');font-display:swap}@font-face{font-family:'Nunito';font-weight:400;src:url(fonts/nunito-400.woff2) format('woff2');font-display:swap}@font-face{font-family:'Nunito';font-weight:600;src:url(fonts/nunito-600.woff2) format('woff2');font-display:swap}@font-face{font-family:'Nunito';font-weight:800;src:url(fonts/nunito-800.woff2) format('woff2');font-display:swap}@font-face{font-family:'Nunito';font-weight:900;src:url(fonts/nunito-900.woff2) format('woff2');font-display:swap}
+body{margin:0;background:#FFF8E7}
+a{color:#141414}a:hover{color:#7B4AE2}
+.ht-teal{background-color:#19B8C9;background-image:radial-gradient(rgba(20,20,20,.20) 1.7px,transparent 2px);background-size:13px 13px}
+.ht-purple{background-color:#7B4AE2;background-image:radial-gradient(rgba(255,255,255,.22) 1.7px,transparent 2px);background-size:13px 13px}
+.ht-yellow{background-color:#FFD83B;background-image:radial-gradient(rgba(20,20,20,.12) 1.5px,transparent 1.8px);background-size:11px 11px}
+.ht-pink{background-color:#FF4FA3;background-image:radial-gradient(rgba(20,20,20,.16) 1.6px,transparent 1.9px);background-size:12px 12px}
+
+.post-body{font-size:19px;line-height:1.75}
+.post-body h2{font-family:'Bangers',Impact,'Arial Narrow',sans-serif;font-weight:400;font-size:36px;letter-spacing:1px;line-height:1.1;margin:44px 0 12px}
+.post-body h3{font-weight:900;font-size:22px;margin:32px 0 8px}
+.post-body p{margin:0 0 20px}
+.post-body ul,.post-body ol{margin:0 0 20px;padding-left:28px}
+.post-body li{margin-bottom:8px}
+.post-body a{color:#5B2FC2;font-weight:700}
+.post-body a:hover{color:#141414}
+.post-body blockquote{margin:28px 0;padding:18px 22px;background:#FFD83B;border:4px solid #141414;box-shadow:6px 6px 0 #141414;font-weight:600}
+.post-body blockquote p:last-child{margin:0}
+.post-body img{display:block;max-width:100%;height:auto;border:4px solid #141414;margin:28px 0}
+.post-body code{background:#FFFFFF;border:2px solid #141414;padding:1px 6px;font-size:.9em}
+.post-body table{border-collapse:collapse;width:100%;margin:0 0 24px;background:#FFFFFF;border:3px solid #141414;font-size:17px}
+.post-body th,.post-body td{border:2px solid #141414;padding:8px 10px;text-align:left;vertical-align:top}
+.post-body th{background:#141414;color:#FFF8E7}
+</style>
+<style>img{max-width:100%}[hidden]{display:none!important}
+.skip-link{position:absolute;left:12px;top:-60px;z-index:100;background:#FFD83B;color:#141414;border:3px solid #141414;padding:10px 16px;font:900 16px 'Nunito',system-ui,sans-serif;text-decoration:none}
+.skip-link:focus{top:12px}
+.menu-btn{display:none}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:760px){
+.logo-img{height:64px!important}
+.menu-btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 16px;background:#FFD83B;color:#141414;border:3px solid #141414;box-shadow:4px 4px 0 #141414;font:900 16px 'Nunito',system-ui,sans-serif;letter-spacing:.5px;text-transform:uppercase;cursor:pointer}
+.menu-btn:focus-visible{outline:4px solid #7B4AE2;outline-offset:2px}
+.main-nav{display:none!important;width:100%;flex-direction:column!important;align-items:stretch!important;gap:4px!important;padding-top:8px}
+.main-nav.open{display:flex!important}
+.main-nav a{margin-left:0!important;min-height:48px!important}
+.main-nav a:last-child{justify-content:center;margin-top:8px!important}
+header>div{padding:14px 16px!important;gap:12px!important;flex-wrap:wrap!important}
+header>div>a:first-child{gap:10px!important}
+.logo-name{font-size:23px!important}
+.logo-tag{font-size:9px!important;letter-spacing:1.5px!important}
+.logo-badge{width:42px!important;height:42px!important;font-size:21px!important;border-width:3px!important;box-shadow:3px 3px 0 #141414!important}
+.menu-btn{padding:0 12px!important;font-size:15px!important}
+}
+@media (max-width:379px){.mb-label{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.menu-btn{width:48px;justify-content:center;padding:0!important}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<aside aria-label="Announcement" style="font-family: 'Nunito', system-ui, sans-serif; background: #141414; color: #FFD83B; text-align: center; padding: 10px 16px; font-weight: 800; font-size: 15px; letter-spacing: .5px">Coming February 2027 • Consult requests now go to an interest list</aside>
+<div style="font-family: 'Nunito', system-ui, sans-serif; color: #141414; background: #FFF8E7; min-width: 0">
+
+<header style="background: #FFF8E7; border-bottom: 4px solid #141414">
+<div style="max-width: 1280px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="index.html" class="logo-link" style="display: flex; align-items: center; text-decoration: none; color: #141414"><img src="images/logo.png" alt="Cort Craven, LLPC, home page" width="760" height="601" class="logo-img" style="display: block; height: 104px; width: auto"></a>
+<button type="button" class="menu-btn" aria-expanded="false" aria-controls="main-nav"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path class="mb-open" d="M4 7h16M4 12h16M4 17h16"></path><path class="mb-close" d="M6 6l12 12M18 6L6 18" style="display:none"></path></svg><span class="mb-label">Menu</span></button>
+<nav aria-label="Main" id="main-nav" class="main-nav" style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center">
+<a href="index.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; border: 3px solid transparent">Home</a>
+<a href="about.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; border: 3px solid transparent">About</a>
+<a href="services.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; border: 3px solid transparent">Services</a>
+<a href="game-informed-therapy.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; border: 3px solid transparent">Game-Informed Therapy</a>
+<a href="resources.html" aria-current="page" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 17px; text-decoration: none; color: #141414; background: #19B8C9; border: 3px solid #141414">Writing &amp; Resources</a>
+<a href="contact.html" style="min-height: 44px; box-sizing: border-box; display: flex; align-items: center; padding: 0 18px; font-weight: 900; font-size: 17px; text-decoration: none; color: #141414; background: #FF4FA3; border: 3px solid #141414; box-shadow: 4px 4px 0 #141414; margin-left: 8px">Book a consult</a>
+</nav>
+</div>
+</header>
+<main id="main" tabindex="-1" style="outline: none">
+<section class="ht-yellow" style="border-bottom: 4px solid #141414">
+<div style="max-width: 860px; margin: 0 auto; padding: 56px 24px; display: flex; flex-direction: column; align-items: flex-start; gap: 16px">
+<a href="blog.html" style="font-weight: 900; font-size: 15px; text-transform: uppercase; letter-spacing: 0.5px; color: #141414; min-height: 44px; display: flex; align-items: center">← All posts</a>
+<span style="background: #FFF8E7; border: 3px solid #141414; padding: 6px 12px; font-weight: 900; font-size: 13px; letter-spacing: 2px">ACCESSIBLE PRACTICE • NOVEMBER 10, 2026</span>
+<h1 style="margin: 0; background: #FFF8E7; border: 5px solid #141414; box-shadow: 10px 10px 0 #141414; padding: 14px 26px; font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-weight: 400; font-size: clamp(36px, 5vw, 60px); line-height: 1.05; letter-spacing: 1.5px">Accessible Therapy</h1>
+</div>
+</section>
+<section style="background: #FFF8E7; border-bottom: 4px solid #141414">
+<article class="post-body" style="max-width: 760px; margin: 0 auto; padding: 56px 24px 72px">
+<h2>What does “Accessible Therapy” mean?</h2>
+<p>When you think of “accessible therapy,” what comes to mind? Affordability? Local availability of therapists? Accepting insurance or offering a sliding scale? While all of these matters are certainly part of making therapy accessible, there’s another, often overlooked aspect of making therapy accessible. Take a moment to consider what the word “accessibility” means to you.</p>
+<p>The most basic definition is: being able to be reached or obtained easily. Looking at that definition through the lens of therapy, affordability, availability of therapists, and insurance / sliding scale all fit to make therapy more accessible. The ACA and telehealth have also played a big role in making therapy more accessible to many. But what about accessible therapy for clients with disabilities?</p>
+<p>Imagine the following:</p>
+<blockquote>
+<p>You’re starting with a new telehealth client and they’re hard of hearing. They rely on closed captions to comprehend what you’re saying in session. You use your EHR’s telehealth platform, so you reach out to them to ask how you turn on captions for your client. Their response? They don’t offer captions and suggest you tell your client to “just turn on Chrome’s Live Captions.” Do you take their suggestion? Tell your client they’re on their own for captions? Refer them elsewhere?</p>
+</blockquote>
+<p>That “just use Chrome’s Live Captions” response is exactly what I encountered when I reached out to multiple telehealth platforms while researching their accessibility offerings. Every one of the most popular platforms offer this solution. The problem? Chrome’s Live Caption feature isn’t HIPAA compliant. They’re eligible for HIPAA compliance if you pay for a Google Workspace account and have a BAA signed with Google. But then they’re only HIPAA compliant if you’re using them, not your client because your client isn’t a Workspace subscriber with a signed BAA and they can’t see Live Captions if you turn them on in your browser.</p>
+<p>Worse than this, what if you return to your client, who has reached out for help they desperately need, and tell them, essentially, the telehealth platform you use was designed without regard for deaf and hard of hearing people, and the same is true for the rest of them. What if the primary reason they’ve sought therapy is because they can no longer cope with the ever-present knowledge that they (deaf and hard of hearing people) are largely forgotten about when things are being designed and they’re tired of having to ask for access to things most people take for granted? You’ve inadvertently retraumatized them because your EHR gave you some terrible advice.</p>
+<h2>Changing the way you think of accessibility</h2>
+<p>The above situation can apply to so many disabilities. If your client is visually impaired and your go-to homework method is sharing photocopies of worksheets, do you know how to create a screen reader or Braille display-friendly version for them? What if your EMDR client has nystagmus and you practice EMDR only with a light bar? Simply put, do you have the knowledge to offer the flexibility necessary to meet the needs of clients with disabilities?</p>
+<p>As someone who relies on closed captions and lip / facial expression reading for my telehealth sessions with my therapist, she offered me the flexibility of switching from her EHR’s platform to Google Meet because I needed higher quality video to follow what she was saying to me.</p>
+<p>It’s human nature to assume others experience the world in the same way we do and be unaware of the things others have to do to make the world safe or accessible for them. But that doesn’t mean we can’t learn to see beyond these biases, it just takes practice.</p>
+<p>One of my favorite exercises to assign as homework when I was running accessibility workshops was to ask attendees to attempt one of their favorite activities and one of their daily, mundane activities with an imagined temporary disability. While I don’t encourage disability simulation because a temporary disability can never truly give someone the lived experience of a person that lives with a disability, simple exercises like this can encourage empathy that people may not have otherwise developed. One attendee imagined trying to go to the grocery store, as she did every Saturday, in a wheelchair. She found that she wouldn’t have even been able to leave her house because it involved stairs. Another attendee, who lived in a rural area, realized that without public transit, her imagined sight loss would leave her completely dependent on others for transportation. Both learned a great deal about the way they thought of accessibility.</p>
+<p>What would you learn if you did this same exercise but in the setting of a therapy session?</p>
+<h2>Steps toward a more accessible practice</h2>
+<p>Accessibility can often feel overwhelming for those new to the practice because it’s a whole lot of information and it feels like you’ll never be able to do it all. The good news? You won’t ever be able to do it all, you can’t ever truly be fully accessible. It’s simply impossible, so let yourself off the hook some. It’s highly unlikely that you will simultaneously have a client from every single disability category all at once. The important thing here is awareness. You need to develop the awareness to understand that not everyone experiences the world (or therapy sessions) the same way you do and the curiosity to learn more about being accommodating.</p>
+<p>There are some simple things you can do though, should you ever need to provide a client with various accommodations.</p>
+<h3>In your practice and sessions</h3>
+<ul>
+<li>Get in the habit of asking clients if they have any accessibility needs. Don’t wait for them to ask you.</li>
+<li>Never put the burden on a client to provide their own accommodations (even if your EHR is telling you it’s OK to).</li>
+<li>Let clients know that you’re happy to be flexible (within your boundaries) to suit their various needs.</li>
+<li>Familiarize yourself with HIPAA compliant video conferencing like Google Meet and Zoom (paid plans with BAAs) should your clients ever need closed captions.</li>
+<li>Practice using ChatGPT or Claude AI to make screen reader and braille display-friendly worksheets. You can simply upload your worksheet and ask it to make a screen reader accessible version.</li>
+<li>Have large print versions of worksheets on hand or be prepared to create them.</li>
+<li>Try to use a wired connection for telehealth sessions. This will minimize lag and pixelation for clients who rely on captions and lip reading.</li>
+<li>Anticipate learning and cognitive disabilities and familiarize yourself with plain language writing if you’re a therapist that likes to give clients reading materials.</li>
+<li>Anticipate scent sensitivities and minimize perfumes, in-office scent diffusers, and scented hand creams if necessary.</li>
+<li>Alternatively, some clients may have scents that calm or relax them. Try keeping bags of wool dryer balls with drops of various essential oil mixtures (or encourage them to bring their own).</li>
+<li>Know how to secure a sign language interpreter for your sessions, whether through insurance or self-pay. But understand that simply because a client is deaf or hard of hearing doesn’t mean they will need or want a sign language interpreter.</li>
+<li>Advise against clients using a friend or family member for their interpreter, as this may limit what they feel safe discussing with you.</li>
+<li>Check with visually impaired clients and clients with limited mobility before sending them documents to sign to ensure you’re sending them in a format that is accessible to them. Not all e-signature platforms are accessible and not everyone is able to physically sign a document. There are HIPAA compliant services available to convert documents into Braille documents.</li>
+<li>Familiarize yourself with the language your client uses regarding their disability. Some will prefer person first (person with a disability, person who is autistic, person who is blind) while others will prefer identity first (disabled person, deaf person, blind person). Try to use your client’s preference.</li>
+<li>Familiarize yourself with appropriate terminology to avoid using outdated or offensive phrases. For example, for many in the US, the term “hearing impaired” is considered offensive. Educate yourself on various groups to ensure your words match your intent.</li>
+<li>Be aware of lighting. Bright or fluorescent lighting can cause sensory discomfort or pain for many individuals. Opt for dimmable lights or table lamps when possible.</li>
+</ul>
+<h3>On your site and social channels</h3>
+<ul>
+<li>Make sure you’re using alt text properly. There’s no need to say, “Image of” or “Photo of.” This is a given when screen readers are reading alt text. For photos, describe the photo, what’s in it, the purpose of the image. If you have a headshot on your site, describe yourself. You want to provide the same information that a sighted visitor would get from looking at the image.</li>
+<li>If you share photos with text in them, ensure you’ve included all the text in the photo within the alt text.</li>
+<li>Break up text and organize it with text styles. Like I’ve done with this blog post. This allows easier navigation for visitors using the keyboard to navigate your site or using a screen reader. Using styles like H1, H2, H3, P1, etc is essential.</li>
+<li>Make use of bulleted lists. These go a long way in making info easier to parse.</li>
+<li>Caption ALL of your video content. And I don’t mean simply rely on YouTube, Facebook, or TikTok auto-captions. Put in the time and effort to edit them. Remind those who rely on high quality captions that they matter to you too.</li>
+<li>Provide multiple methods to contact you. Going back to that hypothetical hard of hearing client, seeing only a phone number and being required to call someone can be extremely off-putting. Also provide an email address for contact. And unless you have a BAA signed with your site host, don’t use a contact form on your site.</li>
+<li>Use diverse stock photos. It’s astonishing how many therapy sites contain photos of only white, able-bodied people and it can instantly make a potential client feel unwelcome.</li>
+</ul>
+<p>I noted that you won’t ever be able to be fully accessible to all people and while that is true, it doesn’t mean you shouldn’t strive to be as accessible and inclusive as possible. Accessibility is an ever-changing field and there’s an endless amount to learn about the topic. But starting with these things I’ve listed serve as a great starting point to build a more accessible and inclusive practice.</p>
+<p style="margin-top: 40px"><a href="blog.html">← Back to all posts</a></p>
+</article>
+</section>
+</main>
+<footer style="background: #141414; color: #FFF8E7">
+<div style="max-width: 1280px; margin: 0 auto; padding: 56px 24px 32px; display: flex; flex-direction: column; gap: 36px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 36px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<img src="images/logo.png" alt="Cort Craven, LLPC" width="760" height="601" style="display: block; width: 220px; height: auto">
+<span style="font-size: 15px; line-height: 1.6">Limited Licensed Professional Counselor, Michigan License #[NUMBER]. Practicing under the clinical supervision of [SUPERVISOR NAME], LPC. Grand Blanc, Michigan.</span>
+</div>
+<nav aria-label="Footer" style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-weight: 900; letter-spacing: 2px; font-size: 13px; color: #19B8C9">PAGES</span>
+<a href="about.html" style="color: #FFF8E7; font-weight: 700; min-height: 36px; display: flex; align-items: center">About</a>
+<a href="services.html" style="color: #FFF8E7; font-weight: 700; min-height: 36px; display: flex; align-items: center">Services &amp; Fees</a>
+<a href="game-informed-therapy.html" style="color: #FFF8E7; font-weight: 700; min-height: 36px; display: flex; align-items: center">Game-Informed Therapy</a>
+<a href="resources.html" style="color: #FFF8E7; font-weight: 700; min-height: 36px; display: flex; align-items: center">Writing &amp; Resources</a>
+<a href="blog.html" style="color: #FFF8E7; font-weight: 700; min-height: 36px; display: flex; align-items: center">Accessible Practice blog</a>
+<a href="contact.html" style="color: #FFF8E7; font-weight: 700; min-height: 36px; display: flex; align-items: center">Contact</a>
+</nav>
+<div style="display: flex; flex-direction: column; gap: 18px; align-self: start">
+<div style="background: #FFD83B; color: #141414; border: 3px solid #FFF8E7; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: 'Bangers', Impact, 'Arial Narrow', sans-serif; font-size: 24px; letter-spacing: 1px">IN CRISIS RIGHT NOW?</span>
+<span style="font-size: 15px; line-height: 1.55; font-weight: 600">Call or text <strong>988</strong> (Suicide &amp; Crisis Lifeline) or call 911. Email and text aren't monitored for emergencies.</span>
+</div>
+<div role="group" aria-label="Pride flags" style="display: flex; flex-wrap: wrap; gap: 10px; "><svg role="img" aria-label="Progress Pride flag" viewBox="0 0 30 20" preserveAspectRatio="none" style="display: block; width: 54px; height: 36px; border: 2px solid #FFF8E7; border-radius: 3px; flex: none"><title>Progress Pride flag</title><rect x="0" y="0.000" width="30" height="3.383" fill="#E40303"/><rect x="0" y="3.333" width="30" height="3.383" fill="#FF8C00"/><rect x="0" y="6.667" width="30" height="3.383" fill="#FFED00"/><rect x="0" y="10.000" width="30" height="3.383" fill="#008026"/><rect x="0" y="13.333" width="30" height="3.383" fill="#24408E"/><rect x="0" y="16.667" width="30" height="3.383" fill="#732982"/><polygon points="-10,0 3,0 13,10 3,20 -10,20" fill="#000000"/><polygon points="-10,0 0.5,0 10.5,10 0.5,20 -10,20" fill="#784F17"/><polygon points="-10,0 -2,0 8,10 -2,20 -10,20" fill="#5BCEFA"/><polygon points="-10,0 -4.5,0 5.5,10 -4.5,20 -10,20" fill="#F5A9B8"/><polygon points="-10,0 -7,0 3,10 -7,20 -10,20" fill="#FFFFFF"/></svg><svg role="img" aria-label="Transgender pride flag" viewBox="0 0 30 20" preserveAspectRatio="none" style="display: block; width: 54px; height: 36px; border: 2px solid #FFF8E7; border-radius: 3px; flex: none"><title>Transgender pride flag</title><rect x="0" y="0.000" width="30" height="4.050" fill="#5BCEFA"/><rect x="0" y="4.000" width="30" height="4.050" fill="#F5A9B8"/><rect x="0" y="8.000" width="30" height="4.050" fill="#FFFFFF"/><rect x="0" y="12.000" width="30" height="4.050" fill="#F5A9B8"/><rect x="0" y="16.000" width="30" height="4.050" fill="#5BCEFA"/></svg><svg role="img" aria-label="Bisexual pride flag" viewBox="0 0 30 20" preserveAspectRatio="none" style="display: block; width: 54px; height: 36px; border: 2px solid #FFF8E7; border-radius: 3px; flex: none"><title>Bisexual pride flag</title><rect x="0" y="0.000" width="30" height="8.050" fill="#D60270"/><rect x="0" y="8.000" width="30" height="4.050" fill="#9B4F96"/><rect x="0" y="12.000" width="30" height="8.050" fill="#0038A8"/></svg><svg role="img" aria-label="Asexual pride flag" viewBox="0 0 30 20" preserveAspectRatio="none" style="display: block; width: 54px; height: 36px; border: 2px solid #FFF8E7; border-radius: 3px; flex: none"><title>Asexual pride flag</title><rect x="0" y="0.000" width="30" height="5.050" fill="#000000"/><rect x="0" y="5.000" width="30" height="5.050" fill="#A3A3A3"/><rect x="0" y="10.000" width="30" height="5.050" fill="#FFFFFF"/><rect x="0" y="15.000" width="30" height="5.050" fill="#800080"/></svg><svg role="img" aria-label="Autistic pride flag" viewBox="0 0 30 20" preserveAspectRatio="none" style="display: block; width: 54px; height: 36px; border: 2px solid #FFF8E7; border-radius: 3px; flex: none"><title>Autistic pride flag</title><rect x="0" y="0" width="30" height="4.05" fill="#B5272D"/><rect x="0" y="4" width="30" height="4.05" fill="#E8742A"/><rect x="0" y="8" width="30" height="4.05" fill="#F2C230"/><rect x="0" y="12" width="30" height="4.05" fill="#7DBE4E"/><rect x="0" y="16" width="30" height="4.05" fill="#2E7D3E"/><path d="M15 10 C17.5 5.5 24 5.5 24 10 C24 14.5 17.5 14.5 15 10 C12.5 5.5 6 5.5 6 10 C6 14.5 12.5 14.5 15 10 Z" fill="none" stroke="#141414" stroke-width="3.6" stroke-linejoin="round" opacity=".35"/><path d="M15 10 C17.5 5.5 24 5.5 24 10 C24 14.5 17.5 14.5 15 10 C12.5 5.5 6 5.5 6 10 C6 14.5 12.5 14.5 15 10 Z" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round"/></svg><svg role="img" aria-label="Disability pride flag" viewBox="0 0 30 20" preserveAspectRatio="none" style="display: block; width: 54px; height: 36px; border: 2px solid #FFF8E7; border-radius: 3px; flex: none"><title>Disability pride flag</title><rect width="30" height="20" fill="#595959"/><g transform="translate(15 10) rotate(33.69)"><rect x="-20" y="-3.0" width="40" height="1.25" fill="#CF7280"/><rect x="-20" y="-1.8" width="40" height="1.25" fill="#EEDE77"/><rect x="-20" y="-0.6" width="40" height="1.25" fill="#E8E8E8"/><rect x="-20" y="0.6" width="40" height="1.25" fill="#7BC2E0"/><rect x="-20" y="1.8" width="40" height="1.25" fill="#3BB07D"/></g></svg></div>
+</div>
+</div>
+<div style="border-top: 2px solid #3A3A3A; padding-top: 20px; font-size: 14px; color: #CFC8B8">© 2027 Cort Craven, LLPC • Grand Blanc, Michigan</div>
+</div>
+</footer>
+
+</div>
+
+<script>
+(function(){var b=document.querySelector('.menu-btn'),n=document.getElementById('main-nav');if(!b||!n)return;
+function set(o){n.classList.toggle('open',o);b.setAttribute('aria-expanded',o);b.querySelector('.mb-open').style.display=o?'none':'';b.querySelector('.mb-close').style.display=o?'':'none';b.querySelector('.mb-label').textContent=o?'Close':'Menu';}
+b.addEventListener('click',function(){set(b.getAttribute('aria-expanded')!=='true');});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&n.classList.contains('open')){set(false);b.focus();}});})();
+</script>
+</body>
+</html>
