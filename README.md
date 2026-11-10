@@ -12,3 +12,6 @@ Personal clinician website. Static HTML, hosted on GitHub Pages.
 
 ## Pages
 `index.html` · `about.html` · `services.html` · `resources.html` · `contact.html`
+
+## Accessible Practice blog
+Posts are Markdown files in `posts/` with front matter (`title`, `date` YYYY-MM-DD, `summary`). Run `python3 scripts/build_blog.py` to regenerate `blog.html`, each `blog-<slug>.html`, and the latest-posts box on `resources.html`. Page chrome is copied from `resources.html`.
