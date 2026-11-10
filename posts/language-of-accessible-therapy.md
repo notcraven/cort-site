@@ -48,7 +48,7 @@ Consider your current intake process. Was it designed to serve people who experi
 
 ### Creating Accessible Digital Forms
 
-- Screen reader compatibility is not optional; it is essential. Approximately 2.2 billion people globally have a vision impairment, with screen readers being a primary assistive technology.
+- Screen reader compatibility is not optional; it is essential. Screen readers are a primary assistive technology for many people who are blind or have low vision.
 - Clear, consistent layouts with ample white space.
 - Adjustable text sizes and high contrast options. This benefits individuals with low vision or certain cognitive differences.
 - Multiple submission formats (digital, paper, verbal completion). This flexibility acknowledges diverse access needs.
@@ -56,9 +56,9 @@ Consider your current intake process. Was it designed to serve people who experi
 
 ### Language That Welcomes
 
-- Gender options beyond binary choices. In a 2022 survey by the Williams Institute at UCLA School of Law, an estimated 1.6 million people in the U.S. identify as transgender, with a growing number identifying as non-binary.
+- Gender options beyond binary choices. A 2025 analysis of CDC survey data by the Williams Institute at UCLA School of Law estimates that about 2.1 million U.S. adults identify as transgender.
 - Space for chosen names and pronouns. Respecting these choices is fundamental to affirming identity.
-- Questions about access needs and accommodations. This proactively addresses potential barriers. For example, the CDC reports that 27% of adults in the U.S. have some type of disability, and their access needs can vary widely.
+- Questions about access needs and accommodations. This proactively addresses potential barriers. For example, the CDC reports that more than 1 in 4 adults in the U.S. (over 70 million people) have some type of disability, and their access needs can vary widely.
 - Recognition of varied family structures and relationship styles.
 - Options to describe identities in one’s own words.
 - Clear explanations of why sensitive information is being collected.
@@ -92,7 +92,7 @@ Let’s reimagine therapeutic dialogue beyond traditional talk therapy models. S
 - Written narratives or journaling.
 - Art or visual expression.
 - Movement and embodied communication.
-- Augmentative and alternative communication (AAC) devices. Approximately 0.6% of the U.S. population uses some form of AAC.
+- Augmentative and alternative communication (AAC) devices. According to the American Speech-Language-Hearing Association, well over 2 million people with significant expressive language impairment use AAC.
 - Text-based messaging during sessions.
 - Non-verbal expressions and gestures.
 
@@ -130,7 +130,7 @@ Creating space for different communication styles is not merely about accommodat
 
 Language shapes how we perceive ourselves and how others perceive us. In therapeutic spaces, the words we use to describe disability and identity carry significant personal and political meaning. By respecting language preferences, we demonstrate respect for the autonomy and lived experiences of the people we serve.
 
-The ongoing conversation surrounding identity-first language (“disabled person”) and person-first language (“person with a disability”) reflects broader discussions about disability identity, pride, and autonomy. Many within the Deaf community, autistic community, and other disability communities embrace identity-first language as a powerful affirmation of disability as a core aspect of their being, not something separate from their personhood. For example, a 2018 survey by the National Center for Disability Journalism found that a majority of disability advocates preferred identity-first language.
+The ongoing conversation surrounding identity-first language (“disabled person”) and person-first language (“person with a disability”) reflects broader discussions about disability identity, pride, and autonomy. Many within the Deaf community, autistic community, and other disability communities embrace identity-first language as a powerful affirmation of disability as a core aspect of their being, not something separate from their personhood. For example, a [survey of 728 U.S. autism stakeholders published in the journal *Autism* in 2023](https://doi.org/10.1177/13623613221130845) found that 87% of autistic adults preferred identity-first language, while professionals were more likely than other groups to favor person-first terms.
 
 Let’s explore this through a therapeutic lens:
 
