@@ -8,7 +8,7 @@ summary: Inaccessible websites turn away clients at their most vulnerable moment
 
 Have you ever considered how many people might be trying to reach out for mental health support right now, but can’t get past the first digital hurdle? Telehealth has transformed therapy access, yet for many potential clients, websites designed without accessibility in mind create unnecessary barriers during vulnerable moments.
 
-Let’s paint a picture: Sarah, a Deaf woman dealing with anxiety, finally musters the courage to seek therapy at 2 AM. She navigates to your website and clicks “play” on the video you’ve embedded from YouTube, explaining the sort of clients you work with. Instead of gaining any information about you, she sees auto-captions full of incorrect words and errors. The momentum of that brave decision fades into frustration as she realizes you’re yet another person who has failed to acknowledge that people like her exist. These moments matter tremendously.
+> Let’s paint a picture: Sarah, a Deaf woman dealing with anxiety, finally musters the courage to seek therapy at 2 AM. She navigates to your website and clicks “play” on the video you’ve embedded from YouTube, explaining the sort of clients you work with. Instead of gaining any information about you, she sees auto-captions full of incorrect words and errors. The momentum of that brave decision fades into frustration as she realizes you’re yet another person who has failed to acknowledge that people like her exist. These moments matter tremendously.
 
 The numbers tell part of the story: 1 in 4 US adults lives with a disability that could affect their web browsing experience. Accessible websites aren’t just about compliance; they’re about creating digital spaces that welcome everyone with open arms.
 
@@ -20,7 +20,7 @@ Consider these ripple effects:
 
 As a therapist, you understand the courage it takes to seek help. Shouldn’t your online presence reflect the same care and attention you bring to your sessions?
 
-By making accessibility the foundation of your design choices, you’re not just following guidelines; you’re living our values. You’re creating a virtual environment where every potential client can feel seen, respected, and welcomed from their very first interaction with you.
+By making accessibility the foundation of your design choices, you’re not just following guidelines; you’re living your values. You’re creating a virtual environment where every potential client can feel seen, respected, and welcomed from their very first interaction with you.
 
 Want to make this concrete? Think about the fictional Marie, a therapist who redesigned her website with accessibility in mind. Her client Alex, who is a blind Black woman looking for a therapist with a somewhat similar lived experience, later shared how the thoughtfully crafted alt text descriptions and keyboard-friendly navigation helped her independently choose Marie as a therapist, something she’d previously needed help with on other sites. These moments highlight how technical choices become bridges to autonomy and dignity.
 
