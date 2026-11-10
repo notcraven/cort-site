@@ -106,7 +106,8 @@ def card(p, heading="h2"):
 
 def main():
     POSTS.mkdir(exist_ok=True)
-    posts = sorted((parse(p) for p in POSTS.glob("*.md")), key=lambda p: p["date_obj"], reverse=True)
+    posts = sorted((parse(p) | {"mtime": p.stat().st_mtime} for p in POSTS.glob("*.md")),
+                   key=lambda p: (p["date_obj"], p["mtime"]), reverse=True)  # same date: most recently added first
     head, tail = chrome()
 
     hero = (f'<section class="ht-yellow" style="border-bottom: 4px solid #141414">\n'
