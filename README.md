@@ -8,7 +8,7 @@ Personal clinician website. Static HTML, hosted on GitHub Pages.
 - Remove `<meta name="robots" content="noindex, nofollow">` from every page so search engines can list the site.
 - Remove the "Coming February 2027" banner at the top of each page once the LLPC is active.
 
-- After connecting a custom domain, replace `https://notcraven.github.io/cort-site/` in the `og:` tags on every page so link previews keep working.
+- The site runs on https://creativemodecounseling.com (CNAME file in the repo root). The `og:` tags and BASE_URL in scripts/build_blog.py use that address.
 
 ## Pages
 `index.html` · `about.html` · `services.html` · `resources.html` · `contact.html`

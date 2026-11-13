@@ -24,7 +24,7 @@ import markdown
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 POSTS = ROOT / "posts"
-BASE_URL = "https://notcraven.github.io/cort-site/"
+BASE_URL = "https://creativemodecounseling.com/"
 BLOG_NAME = "Accessible Practice"
 BLOG_TAGLINE = "A blog for clinicians on making therapy accessible."
 B = "'Bangers', Impact, 'Arial Narrow', sans-serif"
